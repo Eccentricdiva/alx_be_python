@@ -1,12 +1,11 @@
-# define the variables
-number1 = 10
-number2 = 5
+# Define the variable in the problem
+hours = 2
 
-# performing the operations
-sum_result = number1 + number2
-difference_result = number1 - number2
-product_result = number1 * number2
-# print the result in the required format
-print(f"Sum of {number1} and {number2} is {sum_result}")
-print(f"Difference of {number1} and {number2} is {difference_result}")
-print(f"Product of {number1} and {number2} is {product_result}")
+# To calculate the number of seconds in 2hrs
+# 1hr = 60 mins
+# 1 min = 60 secs
+# hence, 1hr = 60 * 60 secs = 3600 secs
+seconds = hours * 3600
+
+# Print the result in the specified format
+print(f"{hours} hour(s) is {seconds} seconds.")
